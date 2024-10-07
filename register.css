@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://coloredbrain.com/wp-content/uploads/2016/07/login-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.register{
+    width: 410px;
+    height: 470px;
+    background-color: rgb(126, 10, 126) ;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+     border-radius: 18px;
+    padding: 30px 10px;
+    padding-top: 20px; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .7);
+}
+.register h1{
+    font-size: 230%;
+    text-align: center;
+}
+.input-3{
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+    position: relative;
+
+ }
+.input-3 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 16px;
+    padding: 25px;
+    color: white;   
+}
+.input-3 input::placeholder{
+    color: white;
+
+}
+.input-3 i{
+    position: absolute;
+    right: 5%;
+    top: 18px;
+}
+.remender{
+    display: flex;
+    font-size: 18px; 
+}
+.register button{
+    width: 100%;
+    height: 10%;
+    border-radius: 34px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgb(53, 16, 46);   
+    font-size: 17px;
+    font-weight: 700;
+}
+.log{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 18px;
+
+}
+.log a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+.log a:hover{
+    text-decoration: underline;
+}
